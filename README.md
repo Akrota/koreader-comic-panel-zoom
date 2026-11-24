@@ -2,6 +2,12 @@
 
 *Deutsch: [README.de.md](README.de.md)*
 
+<!-- byline -->
+Fork of [Dynamic Panel Zoom](https://github.com/JorgeTheFox/koreader-dynamic-panelzoom) by [JorgeTheFox](https://github.com/JorgeTheFox), extended by **Akrota and Claude**.
+
+<!-- lang-note -->
+*Works in **English and German**: menus and texts follow KOReader's language. A German description is at the bottom of this page.*
+
 > **Based on [Dynamic Panel Zoom](https://github.com/JorgeTheFox/koreader-dynamic-panelzoom) by [JorgeTheFox](https://github.com/JorgeTheFox)** (MIT license).
 > The panel detection, the panel viewer and the basic idea all come from the original. This is an unofficial, renamed and extended version. All credit for the original plugin goes to its authors. If you like it, please star the original too.
 
@@ -24,6 +30,15 @@ A panel-by-panel view for comics and manga with automatic panel detection. All s
   - The menus can be opened from the panel view.
   - German menu texts.
 - Bug fixes: an emergency exit (tapping the centre always closes the viewer), and panels are no longer skipped during preloading.
+
+## Screenshots
+
+*The screenshots show the English interface; in a German KOReader the texts are German.*
+
+<table>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/menu.png" width="260" alt="Panel zoom menu: reading direction, gestures, refresh on panel change, free zoom"><br><sub>Panel zoom menu: reading direction, gestures, refresh on panel change, free zoom</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/how-it-works.png" width="260" alt="Help text explaining the panel view and its taps"><br><sub>Help text explaining the panel view and its taps</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/refresh-menu.png" width="260" alt="Refresh on panel change: clean, fast, automatic, how often"><br><sub>Refresh on panel change: clean, fast, automatic, how often</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/refresh-help.png" width="260" alt="Help text on the two refresh modes"><br><sub>Help text on the two refresh modes</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/panel-view.png" width="260" alt="Panel view settings: surroundings, background, full page, small panels, padding"><br><sub>Panel view settings: surroundings, background, full page, small panels, padding</sub></td></tr>
+</table>
 
 ## Installation
 
@@ -75,6 +90,49 @@ Kobo Libra Colour with KOReader 2026.07.1 (also with ZenOS).
 
 Please report problems with this version [here](../../issues), not to the original project. There is no warranty and no guaranteed support.
 
+## More plugins by Akrota and Claude
+
+- [Comic Display](https://github.com/Akrota/koreader-comic-display): Refresh against ghosting, dark borders and a clock for comics
+- [Levels / Tonwerte](https://github.com/Akrota/koreader-comic-levels): Tone curve for comics
+- [Comic Dual Page](https://github.com/Akrota/koreader-comic-dual-page): Double pages with detection (fork of KORComic)
+- [CBZ Converter](https://github.com/Akrota/koreader-cbz-converter): Convert comics, PDF and EPUB to CBZ on the device
+- [Folder to series](https://github.com/Akrota/koreader-folder-to-series): Comic folders to series with volume numbers
+- [Drive Library](https://github.com/Akrota/koreader-drive-library): Google Drive as a cloud library
+- [Story Recall](https://github.com/Akrota/koreader-story-recall): Spoiler-free AI recap for books
+- [Guitar Tab Reader](https://github.com/Akrota/koreader-guitar-tab-reader): Guitar tabs and chords for e-ink
+- [Wi-Fi while charging](https://github.com/Akrota/koreader-wifi-while-charging): Keep Wi-Fi on while charging
+- [Zen page browser gesture](https://github.com/Akrota/koreader-zen-page-browser-gesture): Gesture for the ZenOS page browser
+
 ## License
 
 [MIT](LICENSE). The original copyright notice is kept unchanged.
+
+---
+
+## Deutsch (Kurzbeschreibung)
+
+> **Basiert auf [Dynamic Panel Zoom](https://github.com/JorgeTheFox/koreader-dynamic-panelzoom) von [JorgeTheFox](https://github.com/JorgeTheFox)** (MIT-Lizenz).
+> Die Panel-Erkennung, die Panel-Ansicht und die Grundidee stammen vom Original. Dies ist eine inoffizielle, umbenannte und erweiterte Fassung. Alle Credits für das Original-Plugin gehören seinen Autoren. Wenn es dir gefällt, gib bitte auch dem Original einen Stern.
+
+Eine Panel-für-Panel-Ansicht für Comics und Manga mit automatischer Panel-Erkennung. Alle Einstellungen stehen im normalen Panel-Zoom-Menü von KOReader.
+
+
+### Was anders ist als im Original
+
+- Es läuft mit KOReader ab 2026.07.1. Der Fix stammt aus dem Code des Original-Projekts, wurde aber nie veröffentlicht.
+- Es ist umbenannt (Ordner, Plugin-Name und internes Modul `cpz_panel_viewer.lua`) und kollidiert deshalb nie mit Updates des Originals.
+- Neue Funktionen:
+  - Start beim angetippten Panel.
+  - Seitenübersicht per Wischen, auf Wunsch mit Rahmen um das aktuelle Panel.
+  - Maske an/aus per Wischen.
+  - Schwarzer, weißer oder automatischer Hintergrund.
+  - Refresh beim Panelwechsel gegen Ghosting.
+  - Leserichtung pro Comic plus Standard für neue Comics.
+  - Ganze Seite vor dem ersten und/oder nach dem letzten Panel.
+  - Einstellbare Mindestgröße für Panels.
+  - KOReaders Rand-Gesten und das Plugin [LiveLight](https://github.com/ironicsans/livelight.koplugin) funktionieren auch in der Panel-Ansicht.
+  - Menüs lassen sich aus der Panel-Ansicht öffnen.
+  - Deutsche Menütexte.
+- Fehlerbehebungen: ein Notausgang (Tipp in die Mitte schließt immer) und keine übersprungenen Panels mehr beim Vorladen.
+
+Die ausführliche deutsche Anleitung steht in der [README.de.md](README.de.md).

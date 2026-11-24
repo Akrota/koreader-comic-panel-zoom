@@ -2,6 +2,12 @@
 
 *English: [README.md](README.md)*
 
+<!-- byline -->
+Fork von [Dynamic Panel Zoom](https://github.com/JorgeTheFox/koreader-dynamic-panelzoom) von [JorgeTheFox](https://github.com/JorgeTheFox), erweitert von **Akrota und Claude**.
+
+<!-- lang-note -->
+*Funktioniert auf **Deutsch und Englisch**: Menüs und Texte richten sich nach der KOReader-Sprache.*
+
 > **Basiert auf [Dynamic Panel Zoom](https://github.com/JorgeTheFox/koreader-dynamic-panelzoom) von [JorgeTheFox](https://github.com/JorgeTheFox)** (MIT-Lizenz).
 > Die Panel-Erkennung, die Panel-Ansicht und die Grundidee stammen vom Original. Dies ist eine inoffizielle, umbenannte und erweiterte Fassung. Alle Credits für das Original-Plugin gehören seinen Autoren. Wenn es dir gefällt, gib bitte auch dem Original einen Stern.
 
@@ -24,6 +30,15 @@ Eine Panel-für-Panel-Ansicht für Comics und Manga mit automatischer Panel-Erke
   - Menüs lassen sich aus der Panel-Ansicht öffnen.
   - Deutsche Menütexte.
 - Fehlerbehebungen: ein Notausgang (Tipp in die Mitte schließt immer) und keine übersprungenen Panels mehr beim Vorladen.
+
+## Bildschirmfotos
+
+*Die Bildschirmfotos zeigen die englische Oberfläche; in einem deutschen KOReader sind die Texte deutsch.*
+
+<table>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/menu.png" width="260" alt="Panel-Zoom-Menü: Leserichtung, Gesten, Refresh beim Panelwechsel, freier Zoom"><br><sub>Panel-Zoom-Menü: Leserichtung, Gesten, Refresh beim Panelwechsel, freier Zoom</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/how-it-works.png" width="260" alt="Hilfetext zur Panel-Ansicht und ihren Tipp-Zonen"><br><sub>Hilfetext zur Panel-Ansicht und ihren Tipp-Zonen</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/refresh-menu.png" width="260" alt="Refresh beim Panelwechsel: sauber, schnell, automatisch, wie oft"><br><sub>Refresh beim Panelwechsel: sauber, schnell, automatisch, wie oft</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><img src="docs/screenshots/refresh-help.png" width="260" alt="Hilfetext zu den zwei Refresh-Modi"><br><sub>Hilfetext zu den zwei Refresh-Modi</sub></td><td align="center" valign="top" width="33%"><img src="docs/screenshots/panel-view.png" width="260" alt="Einstellungen der Panel-Ansicht: Umgebung, Hintergrund, ganze Seite, kleine Panels, Rand"><br><sub>Einstellungen der Panel-Ansicht: Umgebung, Hintergrund, ganze Seite, kleine Panels, Rand</sub></td></tr>
+</table>
 
 ## Installieren
 
@@ -74,6 +89,19 @@ Kobo Libra Colour mit KOReader 2026.07.1 (auch mit ZenOS).
 - **Änderungen in dieser Fassung:** vollständig von **Claude** geschrieben, einer KI von Anthropic (in Claude Code). Der Inhaber dieses Projekts hat die Funktionen vorgeschlagen, auf dem Kobo getestet und Rückmeldungen gegeben, aber keinen Code geschrieben.
 
 Probleme mit dieser Fassung bitte [hier](../../issues) melden, nicht beim Original-Projekt. Es gibt keine Garantie und keinen festen Support.
+
+## Weitere Plugins von Akrota und Claude
+
+- [Comic Display](https://github.com/Akrota/koreader-comic-display): Refresh gegen Ghosting, dunkle Ränder und Uhr für Comics
+- [Levels / Tonwerte](https://github.com/Akrota/koreader-comic-levels): Tonwertkurve für Comics
+- [Comic Dual Page](https://github.com/Akrota/koreader-comic-dual-page): Doppelseiten mit Erkennung (Fork von KORComic)
+- [CBZ Converter](https://github.com/Akrota/koreader-cbz-converter): Comics, PDF und EPUB auf dem Gerät in CBZ umwandeln
+- [Folder to series](https://github.com/Akrota/koreader-folder-to-series): Comic-Ordner zu Reihen mit Bandnummern
+- [Drive Library](https://github.com/Akrota/koreader-drive-library): Google Drive als Cloud-Bibliothek
+- [Story Recall](https://github.com/Akrota/koreader-story-recall): Spoilerfreier KI-Rückblick auf Bücher
+- [Guitar Tab Reader](https://github.com/Akrota/koreader-guitar-tab-reader): Gitarren-Tabs und Chords für E-Ink
+- [Wi-Fi while charging](https://github.com/Akrota/koreader-wifi-while-charging): WLAN anlassen, solange das Gerät lädt
+- [Zen page browser gesture](https://github.com/Akrota/koreader-zen-page-browser-gesture): Geste für den ZenOS-Seitenbrowser
 
 ## Lizenz
 
