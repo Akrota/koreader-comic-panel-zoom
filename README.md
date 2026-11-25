@@ -2,9 +2,6 @@
 
 *Deutsch: [README.de.md](README.de.md)*
 
-<!-- byline -->
-Fork of [Dynamic Panel Zoom](https://github.com/JorgeTheFox/koreader-dynamic-panelzoom) by [JorgeTheFox](https://github.com/JorgeTheFox), extended by **Akrota and Claude**.
-
 <!-- lang-note -->
 *Works in **English and German**: menus and texts follow KOReader's language. A German description is at the bottom of this page.*
 
@@ -90,7 +87,7 @@ Kobo Libra Colour with KOReader 2026.07.1 (also with ZenOS).
 
 Please report problems with this version [here](../../issues), not to the original project. There is no warranty and no guaranteed support.
 
-## More plugins by Akrota and Claude
+## More plugins
 
 - [Comic Display](https://github.com/Akrota/koreader-comic-display): Refresh against ghosting, dark borders and a clock for comics
 - [Levels / Tonwerte](https://github.com/Akrota/koreader-comic-levels): Tone curve for comics
